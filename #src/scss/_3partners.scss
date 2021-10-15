@@ -1,0 +1,40 @@
+.partners {
+   padding: 0px 0px 0px 0px;
+   background-color: $blackColor;
+}
+
+.partners__container {
+   padding: 7px 60px;
+}
+
+.partners__items {
+   padding: 10px 0px 0px 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+
+   @media (max-width: 580px) {
+      flex-direction: column;
+   }
+
+   img {
+      margin-bottom: 10px;
+
+      &:last-child {
+         margin-bottom: 0px;
+      }
+
+      @media (max-width: 580px) {
+         margin-bottom: 30px;
+      }
+   }
+
+   // img{
+   //    margin-right: 122px;
+
+   //    &:last-child{
+   //       margin-right: 0px;
+   //    }
+   // }
+}
