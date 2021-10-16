@@ -29,6 +29,11 @@ let ttf2woff2 = require('gulp-ttf2woff2');
 let project_name = require("path").basename(__dirname);
 let src_folder = "#src";
 
+gulp.task('deploy', function() {
+	return gulp.src('./#src/**/*')
+	  .pipe(ghPages());
+ });
+
 let path = {
 	build: {
 		html: project_name + "/",
