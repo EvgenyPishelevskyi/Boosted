@@ -58,29 +58,6 @@ $('.burger').on('click', () => {
 
 
 
-  	  /* Анимация */
-
-		//  function onEntry(entry) {
-		// 	entry.forEach(change => {
-		// 	  if (change.isIntersecting) {
-		// 		change.target.classList.add('element-show');} else {
-		// 			change.target.classList.remove('element-show')
-		// 		}
-		// 	});
-		//  }
-		 
-		//  let options = {
-		// 	threshold: [0.5] };
-		//  let observer = new IntersectionObserver(onEntry, options);
-		//  let elements = document.querySelectorAll('.element_animation');
-		 
-		//  for (let elm of elements) {
-		// 	observer.observe(elm);
-		//  };
-		
-			/* Анимация */
-
-
 
 			/* Slider1 */
 		$('.slider').slick({
@@ -106,26 +83,6 @@ $('.burger').on('click', () => {
 
 
 /* Tabs */
-
-// $(function(){
-// 	$('.tabs-body').not(':first').hide()
-// 	$('.tabs-head .tab').on('click', function(){
-// 		$('.tabs-head .tab').removeClass('active').eq($(this).index()).addClass('active')
-// 		$('.tabs-body').hide().eq($(this).index()).fadeIn()
-// 		$('.slider.slick-initialized').slick("setPosition");
-// 	}).eq(0).addClass('active')
-// })
-
-
-/* Tabs */
-
-// $(document).ready(function(){
-// 	if(!$('#modal-1').hasCLass('modal_active')){
-// 		$('nav').removeClass('fixed');
-// 	} else {
-// 		$('nav').addClass('fixed');
-// 	}
-// });
 
 
 
