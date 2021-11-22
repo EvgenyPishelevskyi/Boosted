@@ -300,7 +300,7 @@ body._lock {
 ._bg-intro__buttons ._button__revs:hover {
   background: #000;
 }
-@media (max-width: 479.98px) {
+@media (max-width: 479.98) {
   ._bg-intro__buttons ._button__revs {
     display: none;
   }
@@ -312,7 +312,7 @@ body._lock {
 ._bg-intro__buttons ._button__board:hover {
   background: #000;
 }
-@media (max-width: 479.98px) {
+@media (max-width: 479.98) {
   ._bg-intro__buttons ._button__board {
     display: none;
   }
@@ -324,7 +324,7 @@ body._lock {
 ._bg-intro__buttons ._button_mob:hover {
   background: #000;
 }
-@media (max-width: 479.98px) {
+@media (max-width: 479.98) {
   ._bg-intro__buttons ._button_mob {
     display: block;
     padding: 8px 38px;

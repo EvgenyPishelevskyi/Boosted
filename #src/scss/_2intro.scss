@@ -58,13 +58,13 @@
       display: block;
       margin-right: 7px;
       padding: 8px 48px;
-      transition:all 0.3s ease;
+      transition: all 0.3s ease;
 
       &:hover {
          background: $blackColor;
       }
 
-      @media (max-width:$md4 +px) {
+      @media (max-width:$md4) {
          display: none;
       }
    }
@@ -72,26 +72,26 @@
 
    ._button__board {
       padding: 8px 38px;
-      transition:all 0.3s ease;
+      transition: all 0.3s ease;
 
       &:hover {
          background: $blackColor;
       }
 
-      @media (max-width:$md4 +px) {
+      @media (max-width:$md4) {
          display: none;
       }
    }
 
    ._button_mob {
       display: none;
-      transition:all 0.3s ease;
+      transition: all 0.3s ease;
 
       &:hover {
          background: $blackColor;
       }
 
-      @media (max-width:$md4 +px) {
+      @media (max-width:$md4) {
          display: block;
          padding: 8px 38px;
       }
