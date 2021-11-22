@@ -170,6 +170,7 @@ body._lock {
 .header__main {
   padding: 15px 0px 0px 0px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 @media (max-width: 991.98px) {
@@ -258,24 +259,23 @@ body._lock {
 }
 
 .intro__bg {
-  background-image: url("../img/intro/bg.png");
+  background-image: url("../img/intro/bg.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 810px;
 }
-@media (max-width: 991.98px) {
+@media (max-width: 991.98) {
   .intro__bg {
-    background-image: url("../img/intro/mob.png");
+    background-image: url("../img/intro/mob.webp");
     height: 610px;
     background-position: 60% 80%;
   }
 }
-@media (max-width: 479.98px) {
+@media (max-width: 479.98) {
   .intro__bg {
-    background-image: url("../img/intro/mob2.png");
+    background-image: url("../img/intro/mob2.webp");
     background-position: 45% 80%;
-    height: 610px;
   }
 }
 
@@ -292,9 +292,9 @@ body._lock {
   border-radius: 35px;
 }
 ._bg-intro__buttons ._button__revs {
-  display: block;
   margin-right: 7px;
   padding: 8px 48px;
+  display: block;
   transition: all 0.3s ease;
 }
 ._bg-intro__buttons ._button__revs:hover {
@@ -422,7 +422,7 @@ body._lock {
 
 ._boosts__board {
   margin-right: 20px;
-  background-image: url("../img/shop/skate.png");
+  background-image: url("../img/shop/skate.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -430,9 +430,9 @@ body._lock {
   width: 100%;
   max-width: 580px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   position: relative;
   transition: all 0.3s ease;
 }
@@ -447,7 +447,7 @@ body._lock {
 }
 @media (max-width: 650px) {
   ._boosts__board {
-    background-image: url("../img/shop/mob/mobSkate.png");
+    background-image: url("../img/shop/mob/mobSkate.webp");
     height: 380px;
     width: 100%;
   }
@@ -485,7 +485,7 @@ body._lock {
 }
 
 ._boosts__rev {
-  background-image: url("../img/shop/revs.png");
+  background-image: url("../img/shop/revs.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -493,9 +493,9 @@ body._lock {
   width: 100%;
   max-width: 580px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   position: relative;
   transition: all 0.3s ease;
 }
@@ -504,7 +504,7 @@ body._lock {
 }
 @media (max-width: 650px) {
   ._boosts__rev {
-    background-image: url("../img/shop/mob//mobRevs.png");
+    background-image: url("../img/shop/mob/mobRevs.webp");
     height: 380px;
     width: 100%;
   }
@@ -542,9 +542,9 @@ body._lock {
 .shop__bg {
   margin-bottom: 44px;
   padding: 44px 0px 0px 0px;
-  background-image: url("../img/shop/bg.png");
+  background-image: url("../img/shop//bg.webp");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center center;
   background-size: cover;
   width: 100%;
   height: 736px;
@@ -557,7 +557,7 @@ body._lock {
 }
 @media (max-width: 991.98px) {
   .shop__bg {
-    background-image: url("../img/shop/mob/mobBg.png");
+    background-image: url("../img/shop/mob/mobBg.webp");
     height: 480px;
     background-position: 50% 50%;
   }
@@ -791,7 +791,9 @@ body._lock {
 }
 @media (max-width: 1200px) {
   .shop__youtube {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     align-items: center;
   }
@@ -816,11 +818,11 @@ body._lock {
 }
 
 .readMore {
+  padding: 10px 20px;
   position: absolute;
   top: 65%;
   left: 38%;
   right: 0%;
-  padding: 10px 20px;
   background: #FF4A32;
   color: #fff;
   border-radius: 100px;
@@ -832,11 +834,11 @@ body._lock {
 }
 
 .readMore2 {
+  padding: 10px 20px;
   position: absolute;
   top: 120%;
   left: 25%;
   right: 0%;
-  padding: 10px 20px;
   background: #FF4A32;
   color: #fff;
   border-radius: 100px;
@@ -871,6 +873,7 @@ body._lock {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
   flex: 0 1 25%;
 }

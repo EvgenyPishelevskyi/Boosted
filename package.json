@@ -30,5 +30,6 @@
 		"sass": "latest",
 		"transform-runtime": "0.0.0",
 		"webp-converter": "2.2.3"
-	}
+	},
+	"dependencies": {}
 }

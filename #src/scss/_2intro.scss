@@ -21,23 +21,19 @@
 }
 
 .intro__bg {
-   background-image: url('../img/intro/bg.png');
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: cover;
+   background-image: url('../img/intro/bg.webp');
+   @include background-image;
    height: 810px;
 
-   @media (max-width:$md2 +px) {
-      background-image: url('../img/intro/mob.png');
+   @media (max-width:$md2) {
+      background-image: url('../img/intro/mob.webp');
       height: 610px;
       background-position: 60% 80%;
    }
 
-   @media (max-width:$md4 +px) {
-      background-image: url('../img/intro/mob2.png');
+   @media (max-width:$md4) {
+      background-image: url('../img/intro/mob2.webp');
       background-position: 45% 80%;
-      height: 610px;
-
    }
 }
 
@@ -55,9 +51,9 @@
    }
 
    ._button__revs {
-      display: block;
       margin-right: 7px;
       padding: 8px 48px;
+      display: block;
       transition: all 0.3s ease;
 
       &:hover {
